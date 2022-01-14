@@ -1,13 +1,15 @@
 package com.lucasvieira.dsmovie.entities;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 
-@Data
+@Getter
+@Setter
 @Entity(name = "tb_score")
 @NoArgsConstructor
 @AllArgsConstructor
